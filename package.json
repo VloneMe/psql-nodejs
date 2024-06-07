@@ -1,0 +1,24 @@
+{
+  "name": "psql-nodejs",
+  "version": "1.0.0",
+  "description": "Postgresql And Node Applications",
+  "main": "server.js",
+  "repository": "git@github.com:VloneMe/psql-nodejs.git",
+  "author": "Vlone Me <francisntima@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
